@@ -1,0 +1,113 @@
+,combo,thing
+0,"['7 Hearts', '9 Hearts']",High Card
+1,"['7 Hearts', 'K Clubs']",High Card
+2,"['7 Hearts', 'A Hearts']",High Card
+3,"['7 Hearts', '5 Hearts']",High Card
+4,"['7 Hearts', '7 Spades']",Pair
+5,"['7 Hearts', '9 Diamonds']",High Card
+6,"['9 Hearts', 'K Clubs']",High Card
+7,"['9 Hearts', 'A Hearts']",High Card
+8,"['9 Hearts', '5 Hearts']",High Card
+9,"['9 Hearts', '7 Spades']",High Card
+10,"['9 Hearts', '9 Diamonds']",Pair
+11,"['K Clubs', 'A Hearts']",High Card
+12,"['K Clubs', '5 Hearts']",High Card
+13,"['K Clubs', '7 Spades']",High Card
+14,"['K Clubs', '9 Diamonds']",High Card
+15,"['A Hearts', '5 Hearts']",High Card
+16,"['A Hearts', '7 Spades']",High Card
+17,"['A Hearts', '9 Diamonds']",High Card
+18,"['5 Hearts', '7 Spades']",High Card
+19,"['5 Hearts', '9 Diamonds']",High Card
+20,"['7 Spades', '9 Diamonds']",High Card
+21,"['7 Hearts', '9 Hearts', 'K Clubs']",High Card
+22,"['7 Hearts', '9 Hearts', 'A Hearts']",High Card
+23,"['7 Hearts', '9 Hearts', '5 Hearts']",High Card
+24,"['7 Hearts', '9 Hearts', '7 Spades']",Pair
+25,"['7 Hearts', '9 Hearts', '9 Diamonds']",Pair
+26,"['7 Hearts', 'K Clubs', 'A Hearts']",High Card
+27,"['7 Hearts', 'K Clubs', '5 Hearts']",High Card
+28,"['7 Hearts', 'K Clubs', '7 Spades']",Pair
+29,"['7 Hearts', 'K Clubs', '9 Diamonds']",High Card
+30,"['7 Hearts', 'A Hearts', '5 Hearts']",High Card
+31,"['7 Hearts', 'A Hearts', '7 Spades']",Pair
+32,"['7 Hearts', 'A Hearts', '9 Diamonds']",High Card
+33,"['7 Hearts', '5 Hearts', '7 Spades']",Pair
+34,"['7 Hearts', '5 Hearts', '9 Diamonds']",High Card
+35,"['7 Hearts', '7 Spades', '9 Diamonds']",Pair
+36,"['9 Hearts', 'K Clubs', 'A Hearts']",High Card
+37,"['9 Hearts', 'K Clubs', '5 Hearts']",High Card
+38,"['9 Hearts', 'K Clubs', '7 Spades']",High Card
+39,"['9 Hearts', 'K Clubs', '9 Diamonds']",Pair
+40,"['9 Hearts', 'A Hearts', '5 Hearts']",High Card
+41,"['9 Hearts', 'A Hearts', '7 Spades']",High Card
+42,"['9 Hearts', 'A Hearts', '9 Diamonds']",Pair
+43,"['9 Hearts', '5 Hearts', '7 Spades']",High Card
+44,"['9 Hearts', '5 Hearts', '9 Diamonds']",Pair
+45,"['9 Hearts', '7 Spades', '9 Diamonds']",Pair
+46,"['K Clubs', 'A Hearts', '5 Hearts']",High Card
+47,"['K Clubs', 'A Hearts', '7 Spades']",High Card
+48,"['K Clubs', 'A Hearts', '9 Diamonds']",High Card
+49,"['K Clubs', '5 Hearts', '7 Spades']",High Card
+50,"['K Clubs', '5 Hearts', '9 Diamonds']",High Card
+51,"['K Clubs', '7 Spades', '9 Diamonds']",High Card
+52,"['A Hearts', '5 Hearts', '7 Spades']",High Card
+53,"['A Hearts', '5 Hearts', '9 Diamonds']",High Card
+54,"['A Hearts', '7 Spades', '9 Diamonds']",High Card
+55,"['5 Hearts', '7 Spades', '9 Diamonds']",High Card
+56,"['7 Hearts', '9 Hearts', 'K Clubs', 'A Hearts']",High Card
+57,"['7 Hearts', '9 Hearts', 'K Clubs', '5 Hearts']",High Card
+58,"['7 Hearts', '9 Hearts', 'K Clubs', '7 Spades']",Pair
+59,"['7 Hearts', '9 Hearts', 'K Clubs', '9 Diamonds']",Pair
+60,"['7 Hearts', '9 Hearts', 'A Hearts', '5 Hearts']",High Card
+61,"['7 Hearts', '9 Hearts', 'A Hearts', '7 Spades']",Pair
+62,"['7 Hearts', '9 Hearts', 'A Hearts', '9 Diamonds']",Pair
+63,"['7 Hearts', '9 Hearts', '5 Hearts', '7 Spades']",Pair
+64,"['7 Hearts', '9 Hearts', '5 Hearts', '9 Diamonds']",Pair
+65,"['7 Hearts', '9 Hearts', '7 Spades', '9 Diamonds']",Two Pair
+66,"['7 Hearts', 'K Clubs', 'A Hearts', '5 Hearts']",High Card
+67,"['7 Hearts', 'K Clubs', 'A Hearts', '7 Spades']",Pair
+68,"['7 Hearts', 'K Clubs', 'A Hearts', '9 Diamonds']",High Card
+69,"['7 Hearts', 'K Clubs', '5 Hearts', '7 Spades']",Pair
+70,"['7 Hearts', 'K Clubs', '5 Hearts', '9 Diamonds']",High Card
+71,"['7 Hearts', 'K Clubs', '7 Spades', '9 Diamonds']",Pair
+72,"['7 Hearts', 'A Hearts', '5 Hearts', '7 Spades']",Pair
+73,"['7 Hearts', 'A Hearts', '5 Hearts', '9 Diamonds']",High Card
+74,"['7 Hearts', 'A Hearts', '7 Spades', '9 Diamonds']",Pair
+75,"['7 Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",Pair
+76,"['9 Hearts', 'K Clubs', 'A Hearts', '5 Hearts']",High Card
+77,"['9 Hearts', 'K Clubs', 'A Hearts', '7 Spades']",High Card
+78,"['9 Hearts', 'K Clubs', 'A Hearts', '9 Diamonds']",Pair
+79,"['9 Hearts', 'K Clubs', '5 Hearts', '7 Spades']",High Card
+80,"['9 Hearts', 'K Clubs', '5 Hearts', '9 Diamonds']",Pair
+81,"['9 Hearts', 'K Clubs', '7 Spades', '9 Diamonds']",Pair
+82,"['9 Hearts', 'A Hearts', '5 Hearts', '7 Spades']",High Card
+83,"['9 Hearts', 'A Hearts', '5 Hearts', '9 Diamonds']",Pair
+84,"['9 Hearts', 'A Hearts', '7 Spades', '9 Diamonds']",Pair
+85,"['9 Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",Pair
+86,"['K Clubs', 'A Hearts', '5 Hearts', '7 Spades']",High Card
+87,"['K Clubs', 'A Hearts', '5 Hearts', '9 Diamonds']",High Card
+88,"['K Clubs', 'A Hearts', '7 Spades', '9 Diamonds']",High Card
+89,"['K Clubs', '5 Hearts', '7 Spades', '9 Diamonds']",High Card
+90,"['A Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",High Card
+91,"['7 Hearts', '9 Hearts', 'K Clubs', 'A Hearts', '5 Hearts']",High Card
+92,"['7 Hearts', '9 Hearts', 'K Clubs', 'A Hearts', '7 Spades']",Pair
+93,"['7 Hearts', '9 Hearts', 'K Clubs', 'A Hearts', '9 Diamonds']",Pair
+94,"['7 Hearts', '9 Hearts', 'K Clubs', '5 Hearts', '7 Spades']",Pair
+95,"['7 Hearts', '9 Hearts', 'K Clubs', '5 Hearts', '9 Diamonds']",Pair
+96,"['7 Hearts', '9 Hearts', 'K Clubs', '7 Spades', '9 Diamonds']",Two Pair
+97,"['7 Hearts', '9 Hearts', 'A Hearts', '5 Hearts', '7 Spades']",Pair
+98,"['7 Hearts', '9 Hearts', 'A Hearts', '5 Hearts', '9 Diamonds']",Pair
+99,"['7 Hearts', '9 Hearts', 'A Hearts', '7 Spades', '9 Diamonds']",Two Pair
+100,"['7 Hearts', '9 Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",Two Pair
+101,"['7 Hearts', 'K Clubs', 'A Hearts', '5 Hearts', '7 Spades']",Pair
+102,"['7 Hearts', 'K Clubs', 'A Hearts', '5 Hearts', '9 Diamonds']",High Card
+103,"['7 Hearts', 'K Clubs', 'A Hearts', '7 Spades', '9 Diamonds']",Pair
+104,"['7 Hearts', 'K Clubs', '5 Hearts', '7 Spades', '9 Diamonds']",Pair
+105,"['7 Hearts', 'A Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",Pair
+106,"['9 Hearts', 'K Clubs', 'A Hearts', '5 Hearts', '7 Spades']",High Card
+107,"['9 Hearts', 'K Clubs', 'A Hearts', '5 Hearts', '9 Diamonds']",Pair
+108,"['9 Hearts', 'K Clubs', 'A Hearts', '7 Spades', '9 Diamonds']",Pair
+109,"['9 Hearts', 'K Clubs', '5 Hearts', '7 Spades', '9 Diamonds']",Pair
+110,"['9 Hearts', 'A Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",Pair
+111,"['K Clubs', 'A Hearts', '5 Hearts', '7 Spades', '9 Diamonds']",High Card
