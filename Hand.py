@@ -11,3 +11,12 @@ class Hand:
 
     def __str__(self):
         return ' '.join(str(card) for card in self.cards)
+
+    def setCards(self, cards):
+        self.cards = cards
+        for card in cards:
+            try:
+                self.deck.cards.remove(card)
+            except:
+                print(f'{card} not in deck')
+                pass

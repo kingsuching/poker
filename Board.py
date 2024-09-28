@@ -45,4 +45,8 @@ class Board:
     def setCards(self, cards):
         self.cards = cards
         for card in cards:
-            self.deck.cards.remove(card)
+            try:
+                self.deck.cards.remove(card)
+            except:
+                print(f'{card} not in deck')
+                pass
