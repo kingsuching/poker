@@ -1,14 +1,19 @@
-from collections import Counter
+import sys
 
-from Board import Board
+from tqdm import tqdm
+
 from Deck import Deck
 from Player import Player
 from PokerHandCheck import *
-from tqdm import tqdm
 
 if __name__ == '__main__':
-    N = 100
-    NUM_PLAYERS = 5
+    if len(sys.argv) > 1:
+        N = int(sys.argv[1])
+        NUM_PLAYERS = int(sys.argv[2])
+    else:
+        N = 100
+        NUM_PLAYERS = 5
+
     players = [Player(name=f"Player {i+1}") for i in range(NUM_PLAYERS)]
     hand_types = []
     flop_hand_types = []
@@ -45,6 +50,7 @@ if __name__ == '__main__':
         hand_types.append(best_river_hand)
         flop_hand_types.append(best_flop_hand)
         turn_hand_types.append(best_turn_hand)
+
     flopSeries = pd.Series(flop_hand_types)
     turnSeries = pd.Series(turn_hand_types)
     riverSeries = pd.Series(hand_types)
