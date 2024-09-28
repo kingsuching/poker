@@ -36,8 +36,8 @@ if __name__ == '__main__':
         for player in players:
             flop_board = Board()
             turn_board = Board()
-            flop_board.cards = board.cards[:3]
-            turn_board.cards = board.cards[:4]
+            flop_board.setCards(board.cards[:3])
+            turn_board.setCards(board.cards[:4])
             fht = check(player.hand, flop_board)
             tht = check(player.hand, turn_board)
             rht = check(player.hand, board)
