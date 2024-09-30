@@ -1,16 +1,10 @@
-import pandas as pd
-import numpy as np
-
-from Card import Card
-from itertools import combinations
 from Hand import Hand
-from Board import Board
 
 class Player:
     def __init__(self, name, stack=10.00, cpu=False):
         self.name = name
         self.stack = stack
-        self.hand = Hand()
+        self.hand = Hand(False)
         self.folded = False
         self.all_in = False
         self.bet = 0

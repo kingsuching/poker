@@ -1,6 +1,3 @@
-import Deck
-import Card
-import random
 from Constants import global_deck
 
 
@@ -50,3 +47,9 @@ class Board:
             except:
                 print(f'{card} not in deck')
                 pass
+
+    def __copy__(self):
+        b = Board()
+        b.cards = self.cards.copy()
+        b.deck = self.deck
+        return b

@@ -1,7 +1,5 @@
 import sys
-
 from tqdm import tqdm
-
 from Deck import Deck
 from Player import Player
 from PokerHandCheck import *
@@ -56,8 +54,8 @@ if __name__ == '__main__':
     riverSeries = pd.Series(hand_types)
     assert len(flopSeries) == N and len(turnSeries) == N and len(riverSeries) == N
     print("Flop Winning Hand Types:")
-    print(flopSeries.value_counts(normalize=True))
+    print(flopSeries.value_counts(normalize=True).round(3))
     print("\nTurn Winning Hand Types:")
-    print(turnSeries.value_counts(normalize=True))
+    print(turnSeries.value_counts(normalize=True).round(3))
     print("\nRiver Winning Hand Types:")
-    print(riverSeries.value_counts(normalize=True))
+    print(riverSeries.value_counts(normalize=True).round(3))

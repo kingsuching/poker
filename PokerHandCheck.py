@@ -1,13 +1,11 @@
-from random import random
-
+import random
 import pandas as pd
-from pandas import value_counts
-
 from Card import Card
 from itertools import combinations
 from Hand import Hand
 from Board import Board
 
+random.seed(42)
 
 def check(hand, board):
     set = hand.cards + board.cards
@@ -126,6 +124,9 @@ def getPairs(set):
     valueCounts = ranks.value_counts()
     correct = valueCounts[valueCounts == 2].index
     return len(correct)
+
+def standardize(string):
+    return string[0].upper() + string[1:].lower()
 
 
 if __name__ == '__main__':

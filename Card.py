@@ -1,8 +1,12 @@
+from SuitsAndRanks import SUITS, RANKS
+
 class Card:
     def __init__(self, rank, suit, onBoard=False):
         self.rank = rank
         self.suit = suit
         self.onBoard = onBoard
+        if self.rank not in RANKS or self.suit not in SUITS:
+            raise ValueError(f"Invalid card: {self}")
 
     def __str__(self):
         return f"{self.rank} {self.suit}"

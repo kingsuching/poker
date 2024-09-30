@@ -1,11 +1,15 @@
-from Card import Card
 import random
+from Card import Card
+from SuitsAndRanks import SUITS, RANKS
+
+random.seed(42)
+
 
 class Deck:
     def __init__(self, onBoard=False):
         self.cards = []
-        self.suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
-        self.ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+        self.suits = SUITS
+        self.ranks = RANKS
         for suit in self.suits:
             for rank in self.ranks:
                 card = Card(rank, suit, onBoard)

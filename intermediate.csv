@@ -1,113 +1,27 @@
 ,combo,thing
-0,"['8 Diamonds', '4 Spades']",High Card
-1,"['8 Diamonds', '4 Hearts']",High Card
-2,"['8 Diamonds', 'J Hearts']",High Card
-3,"['8 Diamonds', '4 Diamonds']",High Card
-4,"['8 Diamonds', 'K Clubs']",High Card
-5,"['8 Diamonds', '3 Hearts']",High Card
-6,"['4 Spades', '4 Hearts']",Pair
-7,"['4 Spades', 'J Hearts']",High Card
-8,"['4 Spades', '4 Diamonds']",Pair
-9,"['4 Spades', 'K Clubs']",High Card
-10,"['4 Spades', '3 Hearts']",High Card
-11,"['4 Hearts', 'J Hearts']",High Card
-12,"['4 Hearts', '4 Diamonds']",Pair
-13,"['4 Hearts', 'K Clubs']",High Card
-14,"['4 Hearts', '3 Hearts']",High Card
-15,"['J Hearts', '4 Diamonds']",High Card
-16,"['J Hearts', 'K Clubs']",High Card
-17,"['J Hearts', '3 Hearts']",High Card
-18,"['4 Diamonds', 'K Clubs']",High Card
-19,"['4 Diamonds', '3 Hearts']",High Card
-20,"['K Clubs', '3 Hearts']",High Card
-21,"['8 Diamonds', '4 Spades', '4 Hearts']",Pair
-22,"['8 Diamonds', '4 Spades', 'J Hearts']",High Card
-23,"['8 Diamonds', '4 Spades', '4 Diamonds']",Pair
-24,"['8 Diamonds', '4 Spades', 'K Clubs']",High Card
-25,"['8 Diamonds', '4 Spades', '3 Hearts']",High Card
-26,"['8 Diamonds', '4 Hearts', 'J Hearts']",High Card
-27,"['8 Diamonds', '4 Hearts', '4 Diamonds']",Pair
-28,"['8 Diamonds', '4 Hearts', 'K Clubs']",High Card
-29,"['8 Diamonds', '4 Hearts', '3 Hearts']",High Card
-30,"['8 Diamonds', 'J Hearts', '4 Diamonds']",High Card
-31,"['8 Diamonds', 'J Hearts', 'K Clubs']",High Card
-32,"['8 Diamonds', 'J Hearts', '3 Hearts']",High Card
-33,"['8 Diamonds', '4 Diamonds', 'K Clubs']",High Card
-34,"['8 Diamonds', '4 Diamonds', '3 Hearts']",High Card
-35,"['8 Diamonds', 'K Clubs', '3 Hearts']",High Card
-36,"['4 Spades', '4 Hearts', 'J Hearts']",Pair
-37,"['4 Spades', '4 Hearts', '4 Diamonds']",Three of a Kind
-38,"['4 Spades', '4 Hearts', 'K Clubs']",Pair
-39,"['4 Spades', '4 Hearts', '3 Hearts']",Pair
-40,"['4 Spades', 'J Hearts', '4 Diamonds']",Pair
-41,"['4 Spades', 'J Hearts', 'K Clubs']",High Card
-42,"['4 Spades', 'J Hearts', '3 Hearts']",High Card
-43,"['4 Spades', '4 Diamonds', 'K Clubs']",Pair
-44,"['4 Spades', '4 Diamonds', '3 Hearts']",Pair
-45,"['4 Spades', 'K Clubs', '3 Hearts']",High Card
-46,"['4 Hearts', 'J Hearts', '4 Diamonds']",Pair
-47,"['4 Hearts', 'J Hearts', 'K Clubs']",High Card
-48,"['4 Hearts', 'J Hearts', '3 Hearts']",High Card
-49,"['4 Hearts', '4 Diamonds', 'K Clubs']",Pair
-50,"['4 Hearts', '4 Diamonds', '3 Hearts']",Pair
-51,"['4 Hearts', 'K Clubs', '3 Hearts']",High Card
-52,"['J Hearts', '4 Diamonds', 'K Clubs']",High Card
-53,"['J Hearts', '4 Diamonds', '3 Hearts']",High Card
-54,"['J Hearts', 'K Clubs', '3 Hearts']",High Card
-55,"['4 Diamonds', 'K Clubs', '3 Hearts']",High Card
-56,"['8 Diamonds', '4 Spades', '4 Hearts', 'J Hearts']",Pair
-57,"['8 Diamonds', '4 Spades', '4 Hearts', '4 Diamonds']",Three of a Kind
-58,"['8 Diamonds', '4 Spades', '4 Hearts', 'K Clubs']",Pair
-59,"['8 Diamonds', '4 Spades', '4 Hearts', '3 Hearts']",Pair
-60,"['8 Diamonds', '4 Spades', 'J Hearts', '4 Diamonds']",Pair
-61,"['8 Diamonds', '4 Spades', 'J Hearts', 'K Clubs']",High Card
-62,"['8 Diamonds', '4 Spades', 'J Hearts', '3 Hearts']",High Card
-63,"['8 Diamonds', '4 Spades', '4 Diamonds', 'K Clubs']",Pair
-64,"['8 Diamonds', '4 Spades', '4 Diamonds', '3 Hearts']",Pair
-65,"['8 Diamonds', '4 Spades', 'K Clubs', '3 Hearts']",High Card
-66,"['8 Diamonds', '4 Hearts', 'J Hearts', '4 Diamonds']",Pair
-67,"['8 Diamonds', '4 Hearts', 'J Hearts', 'K Clubs']",High Card
-68,"['8 Diamonds', '4 Hearts', 'J Hearts', '3 Hearts']",High Card
-69,"['8 Diamonds', '4 Hearts', '4 Diamonds', 'K Clubs']",Pair
-70,"['8 Diamonds', '4 Hearts', '4 Diamonds', '3 Hearts']",Pair
-71,"['8 Diamonds', '4 Hearts', 'K Clubs', '3 Hearts']",High Card
-72,"['8 Diamonds', 'J Hearts', '4 Diamonds', 'K Clubs']",High Card
-73,"['8 Diamonds', 'J Hearts', '4 Diamonds', '3 Hearts']",High Card
-74,"['8 Diamonds', 'J Hearts', 'K Clubs', '3 Hearts']",High Card
-75,"['8 Diamonds', '4 Diamonds', 'K Clubs', '3 Hearts']",High Card
-76,"['4 Spades', '4 Hearts', 'J Hearts', '4 Diamonds']",Three of a Kind
-77,"['4 Spades', '4 Hearts', 'J Hearts', 'K Clubs']",Pair
-78,"['4 Spades', '4 Hearts', 'J Hearts', '3 Hearts']",Pair
-79,"['4 Spades', '4 Hearts', '4 Diamonds', 'K Clubs']",Three of a Kind
-80,"['4 Spades', '4 Hearts', '4 Diamonds', '3 Hearts']",Three of a Kind
-81,"['4 Spades', '4 Hearts', 'K Clubs', '3 Hearts']",Pair
-82,"['4 Spades', 'J Hearts', '4 Diamonds', 'K Clubs']",Pair
-83,"['4 Spades', 'J Hearts', '4 Diamonds', '3 Hearts']",Pair
-84,"['4 Spades', 'J Hearts', 'K Clubs', '3 Hearts']",High Card
-85,"['4 Spades', '4 Diamonds', 'K Clubs', '3 Hearts']",Pair
-86,"['4 Hearts', 'J Hearts', '4 Diamonds', 'K Clubs']",Pair
-87,"['4 Hearts', 'J Hearts', '4 Diamonds', '3 Hearts']",Pair
-88,"['4 Hearts', 'J Hearts', 'K Clubs', '3 Hearts']",High Card
-89,"['4 Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",Pair
-90,"['J Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",High Card
-91,"['8 Diamonds', '4 Spades', '4 Hearts', 'J Hearts', '4 Diamonds']",Three of a Kind
-92,"['8 Diamonds', '4 Spades', '4 Hearts', 'J Hearts', 'K Clubs']",Pair
-93,"['8 Diamonds', '4 Spades', '4 Hearts', 'J Hearts', '3 Hearts']",Pair
-94,"['8 Diamonds', '4 Spades', '4 Hearts', '4 Diamonds', 'K Clubs']",Three of a Kind
-95,"['8 Diamonds', '4 Spades', '4 Hearts', '4 Diamonds', '3 Hearts']",Three of a Kind
-96,"['8 Diamonds', '4 Spades', '4 Hearts', 'K Clubs', '3 Hearts']",Pair
-97,"['8 Diamonds', '4 Spades', 'J Hearts', '4 Diamonds', 'K Clubs']",Pair
-98,"['8 Diamonds', '4 Spades', 'J Hearts', '4 Diamonds', '3 Hearts']",Pair
-99,"['8 Diamonds', '4 Spades', 'J Hearts', 'K Clubs', '3 Hearts']",High Card
-100,"['8 Diamonds', '4 Spades', '4 Diamonds', 'K Clubs', '3 Hearts']",Pair
-101,"['8 Diamonds', '4 Hearts', 'J Hearts', '4 Diamonds', 'K Clubs']",Pair
-102,"['8 Diamonds', '4 Hearts', 'J Hearts', '4 Diamonds', '3 Hearts']",Pair
-103,"['8 Diamonds', '4 Hearts', 'J Hearts', 'K Clubs', '3 Hearts']",High Card
-104,"['8 Diamonds', '4 Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",Pair
-105,"['8 Diamonds', 'J Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",High Card
-106,"['4 Spades', '4 Hearts', 'J Hearts', '4 Diamonds', 'K Clubs']",Three of a Kind
-107,"['4 Spades', '4 Hearts', 'J Hearts', '4 Diamonds', '3 Hearts']",Three of a Kind
-108,"['4 Spades', '4 Hearts', 'J Hearts', 'K Clubs', '3 Hearts']",Pair
-109,"['4 Spades', '4 Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",Three of a Kind
-110,"['4 Spades', 'J Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",Pair
-111,"['4 Hearts', 'J Hearts', '4 Diamonds', 'K Clubs', '3 Hearts']",Pair
+0,"['A Spades', 'A Hearts']",Pair
+1,"['A Spades', 'A Clubs']",Pair
+2,"['A Spades', '3 Hearts']",High Card
+3,"['A Spades', '10 Spades']",High Card
+4,"['A Hearts', 'A Clubs']",Pair
+5,"['A Hearts', '3 Hearts']",High Card
+6,"['A Hearts', '10 Spades']",High Card
+7,"['A Clubs', '3 Hearts']",High Card
+8,"['A Clubs', '10 Spades']",High Card
+9,"['3 Hearts', '10 Spades']",High Card
+10,"['A Spades', 'A Hearts', 'A Clubs']",Three of a Kind
+11,"['A Spades', 'A Hearts', '3 Hearts']",Pair
+12,"['A Spades', 'A Hearts', '10 Spades']",Pair
+13,"['A Spades', 'A Clubs', '3 Hearts']",Pair
+14,"['A Spades', 'A Clubs', '10 Spades']",Pair
+15,"['A Spades', '3 Hearts', '10 Spades']",High Card
+16,"['A Hearts', 'A Clubs', '3 Hearts']",Pair
+17,"['A Hearts', 'A Clubs', '10 Spades']",Pair
+18,"['A Hearts', '3 Hearts', '10 Spades']",High Card
+19,"['A Clubs', '3 Hearts', '10 Spades']",High Card
+20,"['A Spades', 'A Hearts', 'A Clubs', '3 Hearts']",Three of a Kind
+21,"['A Spades', 'A Hearts', 'A Clubs', '10 Spades']",Three of a Kind
+22,"['A Spades', 'A Hearts', '3 Hearts', '10 Spades']",Pair
+23,"['A Spades', 'A Clubs', '3 Hearts', '10 Spades']",Pair
+24,"['A Hearts', 'A Clubs', '3 Hearts', '10 Spades']",Pair
+25,"['A Spades', 'A Hearts', 'A Clubs', '3 Hearts', '10 Spades']",Three of a Kind
