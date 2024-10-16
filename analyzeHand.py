@@ -110,7 +110,7 @@ if __name__ == '__main__':
     boardCards = boardCards.split(", ")
     bc = []
     if len(boardCards) >= 5:
-        raise ValueError("Please enter up to 4 cards ONLY")
+        raise ValueError(f"Please enter up to 4 cards. Got {len(boardCards)}")
     for cardString in boardCards:
         card = Card(cardString.split()[0], cardString.split()[2])
         bc.append(card)
