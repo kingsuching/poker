@@ -1,2 +1,2 @@
-Hand Cards: 9 of Diamonds, 10 of Hearts
-Board Cards: 10 of Spades, 9 of Diamonds, 3 of Hearts
+Hand Cards: 9 of Diamonds, 3 of Hearts
+Board Cards: 9 of Spades, 9 of Diamonds, 3 of Hearts

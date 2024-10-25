@@ -73,7 +73,6 @@ def straight(set):
     ranks = ranks.sort_values()
     expected = range(ranks.min(), ranks.max()+1)
     actual = sorted(ranks.to_list())
-    diffs = ranks.diff()
     return list(expected) == actual and len(set) == 5
 
 def pair(set):
@@ -81,9 +80,6 @@ def pair(set):
 
 def twoPair(set):
     return getPairs(set) == 2
-"""    series = pd.Series(set)
-    ranks = series.apply(lambda x: x.getRank())
-    return ranks.value_counts().max() == 2 and len(ranks.value_counts()) == 3"""
 
 def threeOfAKind(set):
     series = pd.Series(set)
@@ -113,7 +109,6 @@ def highCard(set):
 
 def getAllPossibleCombinations(hand, board):
     c = []
-    maxLen = len(hand) + len(board)
     for i in range(2, 6):
         c += list(combinations(hand + board, i))
     return c

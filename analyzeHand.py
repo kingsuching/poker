@@ -56,8 +56,8 @@ def parse_card(row):
 
 if __name__ == '__main__':
     global_deck = Deck(True)
-    read = False
-    csv = True
+    read = True
+    csv = False
 
     if csv:
         hand = Hand(False)

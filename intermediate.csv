@@ -1,27 +1,27 @@
 ,combo,thing
-0,"['A Spades', 'A Hearts']",Pair
-1,"['A Spades', 'A Clubs']",Pair
-2,"['A Spades', '3 Hearts']",High Card
-3,"['A Spades', '10 Spades']",High Card
-4,"['A Hearts', 'A Clubs']",Pair
-5,"['A Hearts', '3 Hearts']",High Card
-6,"['A Hearts', '10 Spades']",High Card
-7,"['A Clubs', '3 Hearts']",High Card
-8,"['A Clubs', '10 Spades']",High Card
-9,"['3 Hearts', '10 Spades']",High Card
-10,"['A Spades', 'A Hearts', 'A Clubs']",Three of a Kind
-11,"['A Spades', 'A Hearts', '3 Hearts']",Pair
-12,"['A Spades', 'A Hearts', '10 Spades']",Pair
-13,"['A Spades', 'A Clubs', '3 Hearts']",Pair
-14,"['A Spades', 'A Clubs', '10 Spades']",Pair
-15,"['A Spades', '3 Hearts', '10 Spades']",High Card
-16,"['A Hearts', 'A Clubs', '3 Hearts']",Pair
-17,"['A Hearts', 'A Clubs', '10 Spades']",Pair
-18,"['A Hearts', '3 Hearts', '10 Spades']",High Card
-19,"['A Clubs', '3 Hearts', '10 Spades']",High Card
-20,"['A Spades', 'A Hearts', 'A Clubs', '3 Hearts']",Three of a Kind
-21,"['A Spades', 'A Hearts', 'A Clubs', '10 Spades']",Three of a Kind
-22,"['A Spades', 'A Hearts', '3 Hearts', '10 Spades']",Pair
-23,"['A Spades', 'A Clubs', '3 Hearts', '10 Spades']",Pair
-24,"['A Hearts', 'A Clubs', '3 Hearts', '10 Spades']",Pair
-25,"['A Spades', 'A Hearts', 'A Clubs', '3 Hearts', '10 Spades']",Three of a Kind
+0,"['9 Diamonds', '3 Hearts']",High Card
+1,"['9 Diamonds', '9 Spades']",Pair
+2,"['9 Diamonds', '9 Diamonds']",Pair
+3,"['9 Diamonds', '3 Hearts']",High Card
+4,"['3 Hearts', '9 Spades']",High Card
+5,"['3 Hearts', '9 Diamonds']",High Card
+6,"['3 Hearts', '3 Hearts']",Pair
+7,"['9 Spades', '9 Diamonds']",Pair
+8,"['9 Spades', '3 Hearts']",High Card
+9,"['9 Diamonds', '3 Hearts']",High Card
+10,"['9 Diamonds', '3 Hearts', '9 Spades']",Pair
+11,"['9 Diamonds', '3 Hearts', '9 Diamonds']",Pair
+12,"['9 Diamonds', '3 Hearts', '3 Hearts']",Pair
+13,"['9 Diamonds', '9 Spades', '9 Diamonds']",Three of a Kind
+14,"['9 Diamonds', '9 Spades', '3 Hearts']",Pair
+15,"['9 Diamonds', '9 Diamonds', '3 Hearts']",Pair
+16,"['3 Hearts', '9 Spades', '9 Diamonds']",Pair
+17,"['3 Hearts', '9 Spades', '3 Hearts']",Pair
+18,"['3 Hearts', '9 Diamonds', '3 Hearts']",Pair
+19,"['9 Spades', '9 Diamonds', '3 Hearts']",Pair
+20,"['9 Diamonds', '3 Hearts', '9 Spades', '9 Diamonds']",Three of a Kind
+21,"['9 Diamonds', '3 Hearts', '9 Spades', '3 Hearts']",Two Pair
+22,"['9 Diamonds', '3 Hearts', '9 Diamonds', '3 Hearts']",Two Pair
+23,"['9 Diamonds', '9 Spades', '9 Diamonds', '3 Hearts']",Three of a Kind
+24,"['3 Hearts', '9 Spades', '9 Diamonds', '3 Hearts']",Two Pair
+25,"['9 Diamonds', '3 Hearts', '9 Spades', '9 Diamonds', '3 Hearts']",Full House
