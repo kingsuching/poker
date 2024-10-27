@@ -1,17 +1,16 @@
 from shiny import App, ui, render
+from SuitsAndRanks import SUITS, RANKS
 
 app_ui = ui.page_fluid(
-    ui.input_slider("n", "Sample Size", 0, 1000, 20),
-    ui.output_plot("dist")
+    ui.panel_title("Poker Simulator"),
+    ui.input_slider("n", "N", 0, 100, 1),
+    ui.output_text_verbatim("txt"),
 )
 
 def server(input, output, session):
-    @render.plot
-    def dist():
-        import numpy as np
-        import matplotlib.pyplot as plt
-        x = np.random.randn(input.n())
-        plt.hist(x)
+    @render.text
+    def txt():
+        return f'n squared = {input.n()**2}'
 
 app = App(app_ui, server)
 
