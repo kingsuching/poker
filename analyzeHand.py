@@ -29,7 +29,6 @@ def analyzeHand(hand, board=None, n=100, players=5):
     :param n: number of simulations
     :return: probability of each type of hand after n simulations
     """
-
     types = []
     boardCopy = Board()
     for i in range(players-1):
@@ -52,7 +51,8 @@ def analyzeHand(hand, board=None, n=100, players=5):
 
 def parse_card(row):
     standardizedSuit = standardize(row['Suit'])
-    return Card(str(row['Rank']), standardizedSuit)
+    standardizedRank = str(row['Rank'])
+    return Card(standardizedRank, standardizedSuit)
 
 if __name__ == '__main__':
     global_deck = Deck(True)

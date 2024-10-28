@@ -4,16 +4,13 @@ from analyzeHand import analyzeHand, check
 from Card import Card
 from Hand import Hand
 from Board import Board
-
-SIMULATIONS = 10
-PLAYERS = 4
+from numbersValues import *;
 
 app_ui = ui.page_fluid(
     ui.panel_title("Poker Simulator"),
-
     ui.h3("Simulation Specifics"),
-    ui.input_slider("n", "Number of Simulations", min=1, max=1000, value=SIMULATIONS),
-    ui.input_slider("num_players", "Number of Players", min=2, max=10, value=PLAYERS),
+    ui.input_slider("n", "Number of Simulations", min=MIN_SIMULATIONS, max=MAX_SIMULATIONS, value=SIMULATIONS),
+    ui.input_slider("num_players", "Number of Players", min=MIN_PLAYERS, max=MAX_PLAYERS, value=PLAYERS),
 
     # User selects hand cards
     ui.h3("Select Hand"),
@@ -53,10 +50,13 @@ app_ui = ui.page_fluid(
 )
 
 def server(input, output, session):
+    resultText = reactive.Value("")
+
     @reactive.Effect
     @reactive.event(input.run_simulation)
     def run_simulation():
         print('Run Simulation')
+        # Parse hand cards
         try:
             rank1 = input.hand_rank1()
             suit1 = input.hand_suit1()
@@ -65,10 +65,10 @@ def server(input, output, session):
             card1 = Card(rank1, suit1)
             card2 = Card(rank2, suit2)
             hand_cards = [card1, card2]
-            hand = Hand(deal_cards=False)
+            hand = Hand(False)
             hand.setCards(hand_cards)
-        except ValueError:
-            print('Could not set the cards in the hand')
+        except ValueError as e:
+            resultText.set(f"Error in hand card selection: {e}")
             return
 
         # Parse the board cards
@@ -76,25 +76,32 @@ def server(input, output, session):
         for idx in range(1, 6):
             rank = getattr(input, f"board_rank{idx}")()
             suit = getattr(input, f"board_suit{idx}")()
-            print(f'{rank} of {suit}')
-            if rank is not None and suit is not None:
+            if rank and suit:
                 try:
                     card = Card(rank, suit)
-                except:
-                    break
+                except ValueError as e:
+                    resultText.set(f"Error in board card {idx} selection: {e}")
+                    return
                 board_cards.append(card)
-        board = Board(True)
+
+        board = Board(False)
         board.setCards(board_cards)
 
         num_simulations = int(input.n())
         num_players = int(input.num_players())
         probabilities = analyzeHand(hand, board, n=num_simulations, players=num_players)
-        print('analyzed it')
-        guaranteed_hand = check(hand, board)
-        text = f"\n\nGuaranteed Hand: {guaranteed_hand}"
-        text += "\n\nProbabilities:"
-        text += "\n" + str(probabilities)
-        return text
+        guaranteed = check(hand, board)
+        text = f"\n\nYou have a {guaranteed}"
+        text += "\n\n"
+        for key in probabilities.index:
+            value = probabilities[key]*100
+            text += f'{key}: {value}%\n'
+        resultText.set(text)
+
+    @output
+    @render.text
+    def result():
+        return resultText.get()
 
 if __name__ == '__main__':
     app = App(app_ui, server)
