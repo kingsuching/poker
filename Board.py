@@ -1,9 +1,12 @@
 from Constants import global_deck
+from Deck import Deck
 
 
 class Board:
-    def __init__(self):
+    def __init__(self, newDeck=False):
         self.deck = global_deck
+        if newDeck:
+            self.deck = Deck()
         self.cards = []
 
     def flop(self):
