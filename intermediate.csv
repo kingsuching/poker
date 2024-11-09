@@ -1,27 +1,12 @@
 ,combo,thing
-0,"['2 Spades', '2 Diamonds']",Pair
-1,"['2 Spades', '3 Clubs']",High Card
-2,"['2 Spades', '5 Diamonds']",High Card
-3,"['2 Spades', '4 Spades']",High Card
-4,"['2 Diamonds', '3 Clubs']",High Card
-5,"['2 Diamonds', '5 Diamonds']",High Card
-6,"['2 Diamonds', '4 Spades']",High Card
-7,"['3 Clubs', '5 Diamonds']",High Card
-8,"['3 Clubs', '4 Spades']",High Card
-9,"['5 Diamonds', '4 Spades']",High Card
-10,"['2 Spades', '2 Diamonds', '3 Clubs']",Pair
-11,"['2 Spades', '2 Diamonds', '5 Diamonds']",Pair
-12,"['2 Spades', '2 Diamonds', '4 Spades']",Pair
-13,"['2 Spades', '3 Clubs', '5 Diamonds']",High Card
-14,"['2 Spades', '3 Clubs', '4 Spades']",High Card
-15,"['2 Spades', '5 Diamonds', '4 Spades']",High Card
-16,"['2 Diamonds', '3 Clubs', '5 Diamonds']",High Card
-17,"['2 Diamonds', '3 Clubs', '4 Spades']",High Card
-18,"['2 Diamonds', '5 Diamonds', '4 Spades']",High Card
-19,"['3 Clubs', '5 Diamonds', '4 Spades']",High Card
-20,"['2 Spades', '2 Diamonds', '3 Clubs', '5 Diamonds']",Pair
-21,"['2 Spades', '2 Diamonds', '3 Clubs', '4 Spades']",Pair
-22,"['2 Spades', '2 Diamonds', '5 Diamonds', '4 Spades']",Pair
-23,"['2 Spades', '3 Clubs', '5 Diamonds', '4 Spades']",High Card
-24,"['2 Diamonds', '3 Clubs', '5 Diamonds', '4 Spades']",High Card
-25,"['2 Spades', '2 Diamonds', '3 Clubs', '5 Diamonds', '4 Spades']",Pair
+0,"['2 Spades', '2 Hearts']",Pair
+1,"['2 Spades', '7 Clubs']",High Card
+2,"['2 Spades', '5 Clubs']",High Card
+3,"['2 Hearts', '7 Clubs']",High Card
+4,"['2 Hearts', '5 Clubs']",High Card
+5,"['7 Clubs', '5 Clubs']",High Card
+6,"['2 Spades', '2 Hearts', '7 Clubs']",Pair
+7,"['2 Spades', '2 Hearts', '5 Clubs']",Pair
+8,"['2 Spades', '7 Clubs', '5 Clubs']",High Card
+9,"['2 Hearts', '7 Clubs', '5 Clubs']",High Card
+10,"['2 Spades', '2 Hearts', '7 Clubs', '5 Clubs']",Pair

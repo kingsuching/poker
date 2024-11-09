@@ -22,8 +22,9 @@ def suppress_output():
             sys.stdout = old_stdout
 
 
-def analyzeHand(hand, board=None, n=100, players=5):
+def analyzeHand(hand, board=None, n=100, players=5, progressValue=None):
     """
+    :param progressValue: progress value
     :param hand: Hand of Cards
     :param board: current state of the board
     :param n: number of simulations

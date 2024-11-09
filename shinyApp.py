@@ -13,7 +13,7 @@ app_ui = ui.page_fluid(
     ui.input_slider("num_players", "Number of Players", min=MIN_PLAYERS, max=MAX_PLAYERS, value=PLAYERS),
 
     # User selects hand cards
-    ui.h3("Select Hand"),
+    ui.h3("Hand"),
     ui.panel_well(
         ui.row(
             ui.column(
@@ -30,7 +30,7 @@ app_ui = ui.page_fluid(
     ),
 
     # User selects board cards
-    ui.h3("Select Board"),
+    ui.h3("Board"),
     ui.panel_well(
         ui.row(
             *[
@@ -42,7 +42,8 @@ app_ui = ui.page_fluid(
                 for i in range(1, 6)
             ]
         ),
-        ui.help_text("Need at least 3 cards."),
+        ui.help_text("Need at least 3 cards.\n"),
+        ui.help_text('Note: all probabilities based off the river.')
     ),
 
     ui.input_action_button("run_simulation", "Click for Probabilities"),
